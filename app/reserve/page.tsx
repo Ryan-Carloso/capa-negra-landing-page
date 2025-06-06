@@ -88,7 +88,7 @@ export default function ReservePage() {
               type="submit"
               className="w-full bg-amber-500 text-white py-2 rounded-md font-semibold hover:bg-amber-600 transition"
             >
-              Reservar
+            Reservar
             </button>
           </form>
         </div>
