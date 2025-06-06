@@ -43,7 +43,11 @@ export default function Footer() {
               <p>{t("contact.hours.weekdays")}</p>
               <p>{t("contact.hours.weekend")}</p>
             </div>
-            <Button className="mt-4 bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
+            <Button               
+            onClick={() => {
+                window.location.href = `/reserve`
+              }}
+            className="mt-4 bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
           </div>
         </div>
       </div>

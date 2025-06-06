@@ -34,7 +34,11 @@ export default function Home() {
             </h1>
             <p className="mx-auto mb-8 max-w-2xl text-xl text-gray-200 md:text-2xl">{t("hero.subtitle")}</p>
             <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" className="bg-amber-500 px-8 py-4 text-lg hover:bg-amber-600">
+              <Button
+                onClick={() => {
+                  window.location.href = `/reserve`
+                }}
+                size="lg" className="bg-amber-500 px-8 py-4 text-lg hover:bg-amber-600">
                 {t("hero.cta1")} <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
@@ -52,44 +56,44 @@ export default function Home() {
 
       {/* Social Proof */}
       <section className="bg-amber-500 py-8 text-white">
-  <div className="container mx-auto">
-    {/*
+        <div className="container mx-auto">
+          {/*
       Grid de 4 colunas (md:grid-cols-4) e 3 linhas automáticas.
       gap-x controla o espaço horizontal entre colunas,
       text-center alinha tudo centralizado em cada célula.
     */}
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 text-center">
 
-      {/*
+            {/*
         ======= Linha 1: “more than” (apenas na 2ª coluna) =======
         Preenchemos com DIV vazia nas outras colunas.
       */}
-      <div className="hidden md:block"></div>
-      <div className="text-xl md:text-xl font-normal">
-        {t("social.morethan")}
-      </div>
-      <div className="hidden md:block"></div>
-      <div className="hidden md:block"></div>
+            <div className="hidden md:block"></div>
+            <div className="text-xl md:text-xl font-normal">
+              {t("social.morethan")}
+            </div>
+            <div className="hidden md:block"></div>
+            <div className="hidden md:block"></div>
 
-      {/*
+            {/*
         ======= Linha 2: NÚMEROS (50+, 13865, 4.0★, #1) =======
       */}
-      <div className="text-3xl font-bold mb-2">50+</div>
-      <div className="text-3xl font-bold mb-2">1386</div>
-      <div className="text-3xl font-bold mb-2">4.0★</div>
-      <div className="text-3xl font-bold mb-2">top #10</div>
+            <div className="text-3xl font-bold mb-2">50+</div>
+            <div className="text-3xl font-bold mb-2">1386</div>
+            <div className="text-3xl font-bold mb-2">4.0★</div>
+            <div className="text-3xl font-bold mb-2">top #10</div>
 
-      {/*
+            {/*
         ======= Linha 3: LEGENDAS =======
       */}
-      <div className="text-sm">{t("social.years")}</div>
-      <div className="text-sm">{t("social.customers")}</div>
-      <div className="text-sm">{t("social.rating")}</div>
-      <div className="text-sm">{t("social.rank")}</div>
+            <div className="text-sm">{t("social.years")}</div>
+            <div className="text-sm">{t("social.customers")}</div>
+            <div className="text-sm">{t("social.rating")}</div>
+            <div className="text-sm">{t("social.rank")}</div>
 
-    </div>
-  </div>
-</section>
+          </div>
+        </div>
+      </section>
 
 
       {/* Problem/Solution */}
@@ -320,17 +324,17 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* Altura média (20rem = 320px) */}
-<div className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
-  <iframe
-    className="w-full h-full"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.243762329098!2d-8.596891624478525!3d41.151032010623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464f2ad943855%3A0xe0f549359c3e1a41!2sRestaurante%20Capa%20Negra%20I!5e0!3m2!1sen!2spt!4v1741807392319!5m2!1sen!2spt"
-    style={{ border: 0 }}
-    allowFullScreen
-    loading="eager"
-    referrerPolicy="no-referrer-when-downgrade"
-  />
-</div>
+      {/* Altura média (20rem = 320px) */}
+      <div className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
+        <iframe
+          className="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.243762329098!2d-8.596891624478525!3d41.151032010623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464f2ad943855%3A0xe0f549359c3e1a41!2sRestaurante%20Capa%20Negra%20I!5e0!3m2!1sen!2spt!4v1741807392319!5m2!1sen!2spt"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="eager"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
 
 
       {/* Urgency Section */}
@@ -385,7 +389,11 @@ export default function Home() {
               </div>
             </div>
 
-            <Button size="lg" className="bg-white px-12 py-6 text-xl font-bold text-amber-500 hover:bg-gray-100">
+            <Button
+              onClick={() => {
+                window.location.href = `/reserve`
+              }}
+              size="lg" className="bg-white px-12 py-6 text-xl font-bold text-amber-500 hover:bg-gray-100">
               {t("cta.button")}
               <ChevronRight className="ml-3 h-6 w-6" />
             </Button>
