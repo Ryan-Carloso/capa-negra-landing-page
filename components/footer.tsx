@@ -1,0 +1,54 @@
+"use client"
+
+import { Button } from "@/components/ui/button"
+import { useLanguage } from "@/contexts/language-context"
+
+export default function Footer() {
+  const { t } = useLanguage()
+
+  return (
+    <footer className="bg-gray-900 text-gray-300">
+      <div className="container py-8">
+        <div className="grid gap-8 md:grid-cols-3">
+          <div>
+            <div className="flex items-center gap-2 mb-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500 text-white font-bold">
+                CN
+              </div>
+              <span className="text-xl font-bold text-white">Capa Negra I</span>
+            </div>
+            <p className="mb-4">{t("footer.tagline")}</p>
+            <p className="text-sm">{t("footer.description")}</p>
+          </div>
+
+          <div>
+            <h4 className="mb-4 text-lg font-semibold text-white">{t("contact.location")}</h4>
+            <address className="not-italic space-y-2">
+              <p>Rua do Bonjardim, 302</p>
+              <p>4000-115 Porto, Portugal</p>
+              <p>+351 222 054 006</p>
+              <p>info@capanegra1.pt</p>
+            </address>
+          </div>
+
+          <div>
+            <h4 className="mb-4 text-lg font-semibold text-white">{t("contact.hours")}</h4>
+            <div className="space-y-2">
+              <p>{t("contact.hours.weekdays")}</p>
+              <p>{t("contact.hours.weekend")}</p>
+            </div>
+            <Button className="mt-4 bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
+          </div>
+        </div>
+      </div>
+
+      <div className="border-t border-gray-800 py-6">
+        <div className="container text-center text-sm">
+          <p>
+            &copy; {new Date().getFullYear()} Capa Negra I. {t("footer.rights")}
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
