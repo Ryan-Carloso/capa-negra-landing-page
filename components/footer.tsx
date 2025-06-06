@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export default function Footer() {
   const { t } = useLanguage()
@@ -12,9 +13,14 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500 text-white font-bold">
-                CN
-              </div>
+              <Image
+                src="/Logo.png"
+                height={100}
+                width={100}
+                alt="icon restaurant Capa Negra 1 do bonfim"
+                priority
+                className="bg-white p-3 rounded-xl"
+              />
               <span className="text-xl font-bold text-white">Capa Negra I</span>
             </div>
             <p className="mb-4">{t("footer.tagline")}</p>

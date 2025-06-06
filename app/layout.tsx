@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Capa Negra I - Autêntica Francesinha do Porto",
   description:
-    "Restaurante especializado na autêntica francesinha do Porto desde 1969. Experimente a melhor francesinha da cidade.",
-    generator: 'v0.dev'
+    "Restaurante especializado na autêntica francesinha do Porto desde 1968. Experimente a melhor francesinha da cidade.",
+    generator: 'make4ryan'
 }
 
 export default function RootLayout({

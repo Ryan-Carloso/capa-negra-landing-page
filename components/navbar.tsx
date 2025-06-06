@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import LanguageSelector from "@/components/language-selector"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,9 +16,13 @@ export default function Navbar() {
     <header className="fixed z-50 w-full bg-white/95 shadow backdrop-blur">
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-amber-500 text-white font-bold">
-            CN
-          </div>
+        <Image
+                src="/Logo.png"
+                height={40}
+                width={40}
+                alt="icon restaurant Capa Negra 1 do bonfim"
+                priority
+              />
           <span className="text-xl font-bold">Capa Negra I</span>
         </Link>
 

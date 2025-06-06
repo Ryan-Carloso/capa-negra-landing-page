@@ -18,7 +18,7 @@ export default function Home() {
       <section className="relative h-[100vh] w-full">
         <div className="absolute inset-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/pontePorto.jpg"
             alt="Vista de Porto com o Rio Douro"
             fill
             className="object-cover brightness-[0.6]"
@@ -41,6 +41,7 @@ export default function Home() {
                 size="lg"
                 variant="outline"
                 className="border-white px-8 py-4 text-lg text-black hover:bg-white/10"
+
               >
                 {t("hero.cta2")}
               </Button>
@@ -319,6 +320,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* Altura média (20rem = 320px) */}
+<div className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
+  <iframe
+    className="w-full h-full"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.243762329098!2d-8.596891624478525!3d41.151032010623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464f2ad943855%3A0xe0f549359c3e1a41!2sRestaurante%20Capa%20Negra%20I!5e0!3m2!1sen!2spt!4v1741807392319!5m2!1sen!2spt"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="eager"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
+
 
       {/* Urgency Section */}
       <section className="bg-red-50 py-16">

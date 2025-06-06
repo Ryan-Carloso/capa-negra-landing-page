@@ -385,7 +385,7 @@ const translations = {
 
     // Social Proof
     "social.years": "Años de Tradición",
-    "social.morethan": "más que",
+    "social.morethan": "plus que",
     "social.customers": "Clientes Satisfechos",
     "social.rating": "Valoración Google",
     "social.rank": "Francesinha de Oporto",

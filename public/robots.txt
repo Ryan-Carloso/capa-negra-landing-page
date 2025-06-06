@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://capanegra1.pt
+
+# Sitemaps
+Sitemap: https://capanegra1.pt/sitemap.xml
