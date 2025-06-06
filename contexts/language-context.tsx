@@ -13,12 +13,12 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 const translations = {
-  pt: {
+  "pt": {
     // Navigation
     "nav.home": "Início",
     "nav.about": "Sobre",
     "nav.location": "Localização",
-    "nav.contact": "Contato",
+    "nav.contact": "Contacto",
     "nav.reserve": "Reservar Mesa",
 
     // Hero Section
@@ -28,83 +28,83 @@ const translations = {
     "hero.title4": "o Porto",
     "hero.title5": "parar",
     "hero.subtitle":
-      "Há mais de 50 anos servimos a francesinha mais autêntica da cidade. Uma experiência que marca para sempre.",
-    "hero.cta1": "Reservar Mesa Agora",
-    "hero.cta2": "Ver Localização",
+      "Há mais de 50 anos servimos a francesinha mais autêntica da cidade. Uma experiência que ficará para sempre na memória.",
+    "hero.cta1": "Reserve já a sua mesa",
+    "hero.cta2": "Ver localização",
 
     // Social Proof
     "social.years": "Anos de Tradição",
-    "social.morethan": "mais que",
+    "social.morethan": "mais de",
     "social.customers": "Clientes Satisfeitos",
-    "social.rating": "Avaliação Google",
-    "social.rank": "Francesinha do Porto",
+    "social.rating": "Avaliação no Google",
+    "social.rank": "Melhor Francesinha do Porto",
 
     // Problem Section
     "problem.title": "Cansado de francesinhas que",
-    "problem.title2": "desapontam",
+    "problem.title2": "desiludem",
     "problem.subtitle":
-      "Molho aguado, ingredientes de baixa qualidade, pão encharcado... Sabemos como é frustrante pagar caro por uma francesinha medíocre.",
+      "Molho aguado, ingredientes de fraca qualidade, pão encharcado… Sabemos como é frustrante pagar caro por uma francesinha medíocre.",
     "problem.sauce": "Molho Sem Sabor",
-    "problem.sauce.desc": "Molhos industriais que não têm nada a ver com a receita tradicional",
+    "problem.sauce.desc": "Molhos industriais que nada têm a ver com a receita tradicional",
     "problem.meat": "Carne de Má Qualidade",
-    "problem.meat.desc": "Carnes processadas e linguiças baratas que estragam toda a experiência",
+    "problem.meat.desc": "Carnes processadas e linguiças baratas que arruínam toda a experiência",
     "problem.price": "Preço Abusivo",
-    "problem.price.desc": "Pagar muito por pouco, sem qualidade nem tradição",
+    "problem.price.desc": "Pagar caro por tão pouco, sem qualidade nem tradição",
     "problem.solution": "No Capa Negra I, é",
     "problem.solution2": "diferente",
     "problem.solution.desc":
-      "Receita secreta guardada há 3 gerações. Ingredientes selecionados diariamente. O molho que fez história no Porto. Esta é a francesinha que vai mudar a sua vida.",
+      "Receita secreta guardada há 3 gerações. Ingredientes seleccionados diariamente. O molho que fez história no Porto. Esta é a francesinha que vai mudar a sua vida.",
 
     // Products
     "products.title": "Mais do que uma francesinha",
     "products.subtitle":
-      "Descubra os sabores autênticos que fazem do Capa Negra I uma referência gastronômica no Porto",
+      "Descubra os sabores autênticos que fazem do Capa Negra I uma referência gastronómica no Porto",
     "products.francesinha": "Francesinha Especial",
-    "products.francesinha.sub": "O nosso prato estrela",
+    "products.francesinha.sub": "O nosso prato-estrela",
     "products.francesinha.desc":
-      "A receita original com o nosso molho secreto, carnes selecionadas e queijo derretido na perfeição.",
+      "A receita original com o nosso molho secreto, carnes seleccionadas e queijo derretido na perfeição.",
     "products.bifana": "Bifana Tradicional",
     "products.bifana.sub": "Sabor autêntico português",
     "products.bifana.desc":
-      "Carne de porco marinada no nosso tempero especial, servida em pão caseiro com molho único.",
+      "Carne de porco marinada nos nossos temperos especiais, servida em pão caseiro com um molho único.",
     "products.caldo": "Caldo Verde",
-    "products.caldo.sub": "Tradição em cada colherada",
-    "products.caldo.desc": "Receita da avó, com couve galega fresca, chouriço artesanal e o toque especial da casa.",
+    "products.caldo.sub": "Tradição em cada colher",
+    "products.caldo.desc": "Receita da avó, com couve-galega fresca, chouriço artesanal e o toque especial da casa.",
     "products.pasteis": "Pastéis de Bacalhau",
     "products.pasteis.sub": "Crocantes e saborosos",
     "products.pasteis.desc":
-      "Bacalhau do Porto desfiado à mão, batata e temperos secretos. Fritos na hora para máxima crocância.",
+      "Bacalhau do Porto desfiado à mão, batata e especiarias secretas. Fritos no momento para uma crocância máxima.",
     "products.tripas": "Tripas à Moda do Porto",
     "products.tripas.sub": "O prato que deu nome aos tripeiros",
     "products.tripas.desc":
-      "Receita centenária com feijão branco, chouriço, linguiça e o tempero que só nós sabemos fazer.",
+      "Receita centenária com feijão-branco, chouriço, linguiça e o tempero que só nós sabemos fazer.",
     "products.desserts": "Sobremesas da Casa",
-    "products.desserts.sub": "Final perfeito para sua refeição",
+    "products.desserts.sub": "Final perfeito para a sua refeição",
     "products.desserts.desc":
-      "Pudim caseiro, leite-creme queimado e outras delícias que completam a experiência gastronômica.",
+      "Pudim caseiro, leite-creme queimado e outras delícias que completam a experiência gastronómica.",
 
     // Testimonials
     "testimonials.title": "O que dizem sobre nós",
-    "testimonials.subtitle": "Mais de 10.000 clientes não podem estar errados",
+    "testimonials.subtitle": "Mais de 10 000 clientes não podem estar enganados",
     "testimonials.1":
-      "Finalmente encontrei a francesinha perfeita! O molho é incrível e a carne derrete na boca. Voltarei sempre que vier ao Porto.",
+      "Finalmente encontrei a francesinha perfeita! O molho é incrível e a carne derrete-se na boca. Voltarei sempre que vier ao Porto.",
     "testimonials.2":
-      "Sou do Porto e posso garantir: esta é a francesinha mais autêntica da cidade. O sabor me lembra a infância.",
+      "Sou do Porto e posso garantir: esta é a francesinha mais autêntica da cidade. O sabor faz-me lembrar a infância.",
     "testimonials.3":
       "Amazing experience! The francesinha was incredible and the service was perfect. A must-visit in Porto!",
 
     // Urgency
-    "urgency.title": "⚠️ Atenção: Lotamos todos os dias!",
+    "urgency.title": "⚠️ Atenção: Estamos mesmo esgotados sempre!",
     "urgency.subtitle":
-      "Somos o restaurante mais procurado do Porto. Muitos clientes ficam sem mesa por não reservarem com antecedência.",
+      "Somos o restaurante mais procurado do Porto. Muitos clientes ficam sem mesa por não fazerem reserva com antecedência.",
     "urgency.yesterday": "Ontem:",
     "urgency.yesterday.desc": "47 pessoas ficaram sem mesa",
     "urgency.week": "Esta semana:",
-    "urgency.week.desc": "312 pessoas na lista de espera",
+    "urgency.week.desc": "312 pessoas em lista de espera",
     "urgency.warning": "Não perca a oportunidade de provar a melhor francesinha do Porto.",
 
     // Final CTA
-    "cta.title": "Reserve Agora e Garante a Sua Mesa",
+    "cta.title": "Reserve já e garanta a sua mesa",
     "cta.subtitle":
       "Não deixe para amanhã o que pode saborear hoje. A francesinha que vai marcar a sua vida está à sua espera.",
     "cta.fast": "Reserva Rápida",
@@ -113,22 +113,23 @@ const translations = {
     "cta.guaranteed.desc": "Sem filas nem esperas",
     "cta.experience": "Experiência Única",
     "cta.experience.desc": "Que vai recordar para sempre",
-    "cta.button": "RESERVAR MESA AGORA",
-    "cta.benefits": "✅ Confirmação imediata • ✅ Sem taxas • ✅ Cancelamento gratuito até 2h antes",
+    "cta.button": "RESERVE JÁ A SUA MESA",
+    "cta.benefits": "✅ Confirmação imediata • ✅ Sem taxas • ✅ Cancelamento gratuito até 2 h antes",
 
     // Contact
     "contact.location": "Localização",
     "contact.phone": "Telefone",
     "contact.phone.desc": "Chamada para rede fixa nacional",
     "contact.hours": "Horário",
-    "contact.hours.weekdays": "Segunda - Sexta: 11h às 23h",
-    "contact.hours.weekend": "Sábado - Domingo: 11h às 00h",
+    "contact.hours.weekdays": "Segunda a Sexta-feira: 11h00–23h00",
+    "contact.hours.weekend": "Sábado e Domingo: 11h00–00h00",
 
     // Footer
     "footer.tagline": "A autêntica francesinha do Porto desde 1969.",
     "footer.description": "Tradição, qualidade e sabor em cada prato.",
-    "footer.rights": "Todos os direitos reservados.",
+    "footer.rights": "Todos os direitos reservados."
   },
+
 
   en: {
     // Navigation
