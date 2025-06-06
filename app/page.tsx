@@ -51,27 +51,45 @@ export default function Home() {
 
       {/* Social Proof */}
       <section className="bg-amber-500 py-8 text-white">
-        <div className="container">
-          <div className="grid grid-cols-2 gap-8 text-center md:grid-cols-4">
-            <div>
-              <div className="mb-2 text-3xl font-bold">50+</div>
-              <div className="text-sm">{t("social.years")}</div>
-            </div>
-            <div>
-              <div className="mb-2 text-3xl font-bold">1386 +</div>
-              <div className="text-sm">{t("social.customers")}</div>
-            </div>
-            <div>
-              <div className="mb-2 text-3xl font-bold">4.0★</div>
-              <div className="text-sm">{t("social.rating")}</div>
-            </div>
-            <div>
-              <div className="mb-2 text-3xl font-bold">#1</div>
-              <div className="text-sm">{t("social.rank")}</div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto">
+    {/*
+      Grid de 4 colunas (md:grid-cols-4) e 3 linhas automáticas.
+      gap-x controla o espaço horizontal entre colunas,
+      text-center alinha tudo centralizado em cada célula.
+    */}
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 text-center">
+
+      {/*
+        ======= Linha 1: “more than” (apenas na 2ª coluna) =======
+        Preenchemos com DIV vazia nas outras colunas.
+      */}
+      <div className="hidden md:block"></div>
+      <div className="text-xl md:text-xl font-normal">
+        {t("social.morethan")}
+      </div>
+      <div className="hidden md:block"></div>
+      <div className="hidden md:block"></div>
+
+      {/*
+        ======= Linha 2: NÚMEROS (50+, 13865, 4.0★, #1) =======
+      */}
+      <div className="text-3xl font-bold mb-2">50+</div>
+      <div className="text-3xl font-bold mb-2">1386</div>
+      <div className="text-3xl font-bold mb-2">4.0★</div>
+      <div className="text-3xl font-bold mb-2">top #10</div>
+
+      {/*
+        ======= Linha 3: LEGENDAS =======
+      */}
+      <div className="text-sm">{t("social.years")}</div>
+      <div className="text-sm">{t("social.customers")}</div>
+      <div className="text-sm">{t("social.rating")}</div>
+      <div className="text-sm">{t("social.rank")}</div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Problem/Solution */}
       <section className="bg-white py-20">
