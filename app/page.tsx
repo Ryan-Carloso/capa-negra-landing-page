@@ -40,7 +40,7 @@ export default function Home() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white px-8 py-4 text-lg text-white hover:bg-white/10"
+                className="border-white px-8 py-4 text-lg text-black hover:bg-white/10"
               >
                 {t("hero.cta2")}
               </Button>
@@ -58,11 +58,11 @@ export default function Home() {
               <div className="text-sm">{t("social.years")}</div>
             </div>
             <div>
-              <div className="mb-2 text-3xl font-bold">10k+</div>
+              <div className="mb-2 text-3xl font-bold">1386 +</div>
               <div className="text-sm">{t("social.customers")}</div>
             </div>
             <div>
-              <div className="mb-2 text-3xl font-bold">4.8★</div>
+              <div className="mb-2 text-3xl font-bold">4.0★</div>
               <div className="text-sm">{t("social.rating")}</div>
             </div>
             <div>

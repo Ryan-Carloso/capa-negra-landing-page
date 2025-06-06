@@ -34,6 +34,7 @@ const translations = {
 
     // Social Proof
     "social.years": "Anos de Tradição",
+    "social.morethan": "mais que",
     "social.customers": "Clientes Satisfeitos",
     "social.rating": "Avaliação Google",
     "social.rank": "Francesinha do Porto",
@@ -150,6 +151,7 @@ const translations = {
 
     // Social Proof
     "social.years": "Years of Tradition",
+    "social.morethan": "more than",
     "social.customers": "Satisfied Customers",
     "social.rating": "Google Rating",
     "social.rank": "Francesinha in Porto",
