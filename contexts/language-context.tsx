@@ -97,7 +97,7 @@ const translations = {
     "urgency.subtitle":
       "Somos um dos restaurantes mais procurados do Porto. Muitos clientes ficam sem mesa por não fazerem reserva com antecedência.",
 
-    "urgency.warning": "Não perca a oportunidade de provar a melhor francesinha do Porto.",
+    "urgency.warning": "Não perca a oportunidade de provar uma das melhores francesinhas do Porto.",
 
     // Final CTA
     "cta.title": "Reserve já e garanta a sua mesa",
@@ -215,7 +215,7 @@ const translations = {
     "urgency.title": "⚠️ Warning: We're full every day!",
     "urgency.subtitle":
       "We're one of the most sought-after restaurants in Porto. Many customers are left without a table for not booking in advance.",
-    "urgency.warning": "Don't miss the opportunity to taste the best francesinha in Porto.",
+    "urgency.warning": "Don't miss the opportunity to taste one of the best francesinhas in Porto.",
 
     // Final CTA
     "cta.title": "Reserve Now and Guarantee Your Table",
@@ -320,8 +320,8 @@ const translations = {
     // Urgency
     "urgency.title": "⚠️ Attention : Nous sommes complets tous les jours !",
     "urgency.subtitle":
-      "Nous som mes l'un des restaurants les plus recherchés de Porto. Beaucoup de clients restent sans table faute de réserver à l'avance.",
-    "urgency.warning": "Ne ratez pas l'opportunité de goûter la meilleure francesinha de Porto.",
+      "Nous sommes l'un des restaurants les plus recherchés de Porto. Beaucoup de clients restent sans table faute de réserver à l'avance.",
+    "urgency.warning": "Ne ratez pas l'opportunité de goûter une des meilleures francesinhas de Porto.",
 
     // Final CTA
     "cta.title": "Réservez Maintenant et Garantissez Votre Table",
@@ -429,7 +429,7 @@ const translations = {
     "urgency.title": "⚠️ Atención: ¡Estamos llenos todos los días!",
     "urgency.subtitle":
       "Somos uno de los restaurantes más buscados de Oporto. Muchos clientes se quedan sin mesa por no reservar con antelación.",
-    "urgency.warning": "No pierdas la oportunidad de probar la mejor francesinha de Oporto.",
+    "urgency.warning": "No pierdas la oportunidad de probar una de las mejores francesinhas de Oporto.",
 
     // Final CTA
     "cta.title": "Reserva Ahora y Garantiza Tu Mesa",
