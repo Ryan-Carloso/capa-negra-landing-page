@@ -67,9 +67,6 @@ const translations = {
     "products.bifana.sub": "Sabor autêntico português",
     "products.bifana.desc":
       "Carne de porco marinada nos nossos temperos especiais, servida em pão caseiro com um molho único.",
-    "products.caldo": "Caldo Verde",
-    "products.caldo.sub": "Tradição em cada colher",
-    "products.caldo.desc": "Receita da avó, com couve-galega fresca, chouriço artesanal e o toque especial da casa.",
     "products.pasteis": "Pastéis de Bacalhau",
     "products.pasteis.sub": "Crocantes e saborosos",
     "products.pasteis.desc":
@@ -183,10 +180,6 @@ const translations = {
     "products.bifana": "Traditional Bifana",
     "products.bifana.sub": "Authentic Portuguese flavor",
     "products.bifana.desc": "Pork marinated in our special seasoning, served in homemade bread with unique sauce.",
-    "products.caldo": "Caldo Verde",
-    "products.caldo.sub": "Tradition in every spoonful",
-    "products.caldo.desc":
-      "Grandma's recipe, with fresh Galician cabbage, artisanal chorizo and the house's special touch.",
     "products.pasteis": "Codfish Cakes",
     "products.pasteis.sub": "Crispy and tasty",
     "products.pasteis.desc":
@@ -301,14 +294,10 @@ const translations = {
     "products.bifana.sub": "Saveur portugaise authentique",
     "products.bifana.desc":
       "Porc mariné dans notre assaisonnement spécial, servi dans du pain maison avec une sauce unique.",
-    "products.caldo": "Caldo Verde",
-    "products.caldo.sub": "Tradition à chaque cuillerée",
-    "products.caldo.desc":
-      "Recette de grand-mère, avec du chou galicien frais, chorizo artisanal et la touche spéciale de la maison.",
     "products.pasteis": "Beignets de Morue",
     "products.pasteis.sub": "Croustillants et savoureux",
     "products.pasteis.desc":
-      "Morue de Porto effilochée à la main, pomme de terre et assaisonnements secrets. Frits à la minute pour un maximum de croustillant.",
+      "Morue de Porto effilochée à la main, pomme de terre et assaisonnements secrets. Frits à la minute para um máximo de croustillante.",
     "products.tripas": "Tripes à la Mode de Porto",
     "products.tripas.sub": "Le plat qui a donné son nom aux tripeiros",
     "products.tripas.desc":
@@ -418,10 +407,6 @@ const translations = {
     "products.bifana": "Bifana Tradicional",
     "products.bifana.sub": "Sabor portugués auténtico",
     "products.bifana.desc": "Cerdo marinado en nuestro condimento especial, servido en pan casero con salsa única.",
-    "products.caldo": "Caldo Verde",
-    "products.caldo.sub": "Tradición en cada cucharada",
-    "products.caldo.desc":
-      "Receta de la abuela, con col gallega fresca, chorizo artesanal y el toque especial de la casa.",
     "products.pasteis": "Pasteles de Bacalao",
     "products.pasteis.sub": "Crujientes y sabrosos",
     "products.pasteis.desc":

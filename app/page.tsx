@@ -190,25 +190,6 @@ export default function Home() {
               <div className="relative h-64">
                 <Image
                   src="/placeholder.svg?height=400&width=600"
-                  alt="Caldo Verde Capa Negra"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">{t("products.caldo")}</h3>
-                  <p className="text-sm">{t("products.caldo.sub")}</p>
-                </div>
-              </div>
-              <div className="p-6">
-                <p className="text-gray-600">{t("products.caldo.desc")}</p>
-              </div>
-            </div>
-
-            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
-              <div className="relative h-64">
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
                   alt="Pastéis de Bacalhau"
                   fill
                   className="object-cover"
