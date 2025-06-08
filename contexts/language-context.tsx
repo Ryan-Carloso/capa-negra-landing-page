@@ -117,8 +117,8 @@ const translations = {
     "contact.phone": "Telefone",
     "contact.phone.desc": "Chamada para rede fixa nacional",
     "contact.hours": "Horário",
-    "contact.hours.weekdays": "Segunda a Sexta-feira: 11h00–23h00",
-    "contact.hours.weekend": "Sábado e Domingo: 11h00–00h00",
+    "contact.hours.weekdays": "Segunda a Quinta: 10h00–23h00",
+    "contact.hours.weekend": "Sexta - Sábado 10h00–00h00",
 
     // Footer
     "footer.tagline": "A autêntica francesinha do Porto desde 1969.",
@@ -235,8 +235,8 @@ const translations = {
     "contact.phone": "Phone",
     "contact.phone.desc": "Call to national landline",
     "contact.hours": "Hours",
-    "contact.hours.weekdays": "Monday - Friday: 11am to 11pm",
-    "contact.hours.weekend": "Saturday - Sunday: 11am to 12am",
+    "contact.hours.weekdays": "Monday - Thursday: 10am to 11pm",
+    "contact.hours.weekend": "Friday - Saturday: 10am to 12am", 
 
     // Footer
     "footer.tagline": "The authentic francesinha from Porto since 1969.",
@@ -341,8 +341,8 @@ const translations = {
     "contact.phone": "Téléphone",
     "contact.phone.desc": "Appel vers ligne fixe nationale",
     "contact.hours": "Horaires",
-    "contact.hours.weekdays": "Lundi - Vendredi : 11h à 23h",
-    "contact.hours.weekend": "Samedi - Dimanche : 11h à 00h",
+    "contact.hours.weekdays": "Lundi - Jeudi : 10h à 23h",
+    "contact.hours.weekend": "Vendredi - Dimanche : 10h à 00h",
 
     // Footer
     "footer.tagline": "L'authentique francesinha de Porto depuis 1969.",
@@ -449,8 +449,8 @@ const translations = {
     "contact.phone": "Teléfono",
     "contact.phone.desc": "Llamada a línea fija nacional",
     "contact.hours": "Horario",
-    "contact.hours.weekdays": "Lunes - Viernes: 11h a 23h",
-    "contact.hours.weekend": "Sábado - Domingo: 11h a 00h",
+    "contact.hours.weekdays": "Lunes - Jueves: 10h a 23h",
+    "contact.hours.weekend": "Viernes - Sabado: 10h a 00h",
 
     // Footer
     "footer.tagline": "La auténtica francesinha de Oporto desde 1969.",

@@ -410,13 +410,13 @@ export default function Home() {
             <div className="text-center">
               <MapPin className="mx-auto mb-3 h-8 w-8 text-amber-400" />
               <h3 className="mb-2 text-lg font-semibold">{t("contact.location")}</h3>
-              <p>Rua do Bonjardim, 302</p>
-              <p>4000-115 Porto, Portugal</p>
+              <p>R. de Barros Lima 487, 4300-062 Porto</p>
+              <p>4300-062 Porto, Portugal</p>
             </div>
             <div className="text-center">
               <Phone className="mx-auto mb-3 h-8 w-8 text-amber-400" />
               <h3 className="mb-2 text-lg font-semibold">{t("contact.phone")}</h3>
-              <p>+351 222 054 006</p>
+              <p>+351 22 245 3725</p>
               <p>{t("contact.phone.desc")}</p>
             </div>
             <div className="text-center">
