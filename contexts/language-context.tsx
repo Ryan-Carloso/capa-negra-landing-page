@@ -63,10 +63,28 @@ const translations = {
     "products.francesinha.sub": "O nosso prato-estrela",
     "products.francesinha.desc":
       "A receita original com o nosso molho secreto, carnes seleccionadas e queijo derretido na perfeição.",
+    "products.francesinha.normal.title": "Francesinha Normal",
+    "products.francesinha.normal.price": "€12,50",
+    "products.francesinha.normal.desc": "O sanduíche tradicional do Porto com presunto, linguiça, bife, queijo derretido e nosso molho especial",
+    "products.francesinha.hamburger.title": "Francesinha de Hambúrguer",
+    "products.francesinha.hamburger.price": "€12,50",
+    "products.francesinha.hamburger.desc": "Nossa francesinha especial feita com hambúrguer artesanal, queijo derretido e molho especial",
+    "products.francesinha.hotdog.title": "Cachorro Especial",
+    "products.francesinha.hotdog.price": "€10,00",
+    "products.francesinha.hotdog.desc": "Cachorro quente especial com salsicha artesanal, queijo derretido, bacon e molhos especiais",
+    "products.francesinha.egg.title": "Francesinha de c/ovo",
+    "products.francesinha.egg.price": "€13,50",
+    "products.francesinha.egg.desc": "Nossa francesinha especial e ovo estrelado por cima",
+    "products.francesinha.picanha.title": "Francesinha de picanha c/ovo",
+    "products.francesinha.picanha.price": "€14,50",
+    "products.francesinha.picanha.desc": "Nossa francesinha especial com picanha e ovo estrelado por cima",
+    "products.francesinha.special.title": "Francesinha Capa Negra 1",
+    "products.francesinha.special.price": "€14,50",
+    "products.francesinha.special.desc": "Versão especial com Bacon, e molho aprimorado Capa Negra 1",
 
     // Testimonials
     "testimonials.title": "O que dizem sobre nós",
-    "testimonials.subtitle": "Mais de 10 000 clientes não podem estar enganados",
+    "testimonials.subtitle": "Mais de 1 000 clientes não podem estar enganados",
     "testimonials.1":
       "Finalmente encontrei a francesinha perfeita! O molho é incrível e a carne derrete-se na boca. Voltarei sempre que vier ao Porto.",
     "testimonials.2":
@@ -77,11 +95,8 @@ const translations = {
     // Urgency
     "urgency.title": "⚠️ Atenção: Estamos mesmo esgotados sempre!",
     "urgency.subtitle":
-      "Somos o restaurante mais procurado do Porto. Muitos clientes ficam sem mesa por não fazerem reserva com antecedência.",
-    "urgency.yesterday": "Ontem:",
-    "urgency.yesterday.desc": "47 pessoas ficaram sem mesa",
-    "urgency.week": "Esta semana:",
-    "urgency.week.desc": "312 pessoas em lista de espera",
+      "Somos um dos restaurantes mais procurados do Porto. Muitos clientes ficam sem mesa por não fazerem reserva com antecedência.",
+
     "urgency.warning": "Não perca a oportunidade de provar a melhor francesinha do Porto.",
 
     // Final CTA
@@ -118,7 +133,27 @@ const translations = {
     "nav.about": "About",
     "nav.location": "Location",
     "nav.contact": "Contact",
-    "nav.reserve": "Reserve Table",
+    "nav.reserve": "Book a Table",
+
+    // Products - English
+    "products.francesinha.normal.title": "Classic Francesinha",
+    "products.francesinha.normal.price": "€12.50",
+    "products.francesinha.normal.desc": "Porto's traditional sandwich with ham, chorizo, steak, melted cheese and our special sauce",
+    "products.francesinha.hamburger.title": "Burger Francesinha",
+    "products.francesinha.hamburger.price": "€12.50",
+    "products.francesinha.hamburger.desc": "Our special francesinha made with artisanal burger, melted cheese and special sauce",
+    "products.francesinha.hotdog.title": "Special Hot Dog",
+    "products.francesinha.hotdog.price": "€10.00",
+    "products.francesinha.hotdog.desc": "Special hot dog with artisanal sausage, melted cheese, bacon and special sauces",
+    "products.francesinha.egg.title": "Francesinha with Egg",
+    "products.francesinha.egg.price": "€13.50",
+    "products.francesinha.egg.desc": "Our special francesinha with a fried egg on top",
+    "products.francesinha.picanha.title": "Francesinha with Picanha and Egg",
+    "products.francesinha.picanha.price": "€14.50",
+    "products.francesinha.picanha.desc": "Our special francesinha with picanha and a fried egg on top",
+    "products.francesinha.special.title": "Capa Negra 1 Francesinha",
+    "products.francesinha.special.price": "€14.50",
+    "products.francesinha.special.desc": "Special version with Bacon, enhanced Capa Negra 1 sauce",
 
     // Hero Section
     "hero.title1": "The",
@@ -157,10 +192,6 @@ const translations = {
     // Products
     "products.title": "More than just a francesinha",
     "products.subtitle": "Discover the authentic flavors that make Capa Negra I a gastronomic reference in Porto",
-    "products.francesinha": "Special Francesinha",
-    "products.francesinha.sub": "Our star dish",
-    "products.francesinha.desc":
-      "The original recipe with our secret sauce, selected meats and perfectly melted cheese.",
     "products.pasteis": "Codfish Cakes",
     "products.pasteis.sub": "Crispy and tasty",
     "products.pasteis.desc":
@@ -172,7 +203,7 @@ const translations = {
 
     // Testimonials
     "testimonials.title": "What they say about us",
-    "testimonials.subtitle": "More than 10,000 customers can't be wrong",
+    "testimonials.subtitle": "More than 1,000 customers can't be wrong",
     "testimonials.1":
       "Finally found the perfect francesinha! The sauce is incredible and the meat melts in your mouth. I'll come back every time I visit Porto.",
     "testimonials.2":
@@ -183,11 +214,7 @@ const translations = {
     // Urgency
     "urgency.title": "⚠️ Warning: We're full every day!",
     "urgency.subtitle":
-      "We're the most sought-after restaurant in Porto. Many customers are left without a table for not booking in advance.",
-    "urgency.yesterday": "Yesterday:",
-    "urgency.yesterday.desc": "47 people were left without a table",
-    "urgency.week": "This week:",
-    "urgency.week.desc": "312 people on the waiting list",
+      "We're one of the most sought-after restaurants in Porto. Many customers are left without a table for not booking in advance.",
     "urgency.warning": "Don't miss the opportunity to taste the best francesinha in Porto.",
 
     // Final CTA
@@ -259,17 +286,30 @@ const translations = {
     "problem.solution.desc":
       "Recette secrète gardée depuis 3 générations. Ingrédients sélectionnés quotidiennement. La sauce qui a fait l'histoire de Porto. C'est la francesinha qui va changer votre vie.",
 
-    // Products
+    // Products - French
     "products.title": "Plus qu'une simple francesinha",
-    "products.subtitle":
-      "Découvrez les saveurs authentiques qui font de Capa Negra I une référence gastronomique à Porto",
-    "products.francesinha": "Francesinha Spéciale",
-    "products.francesinha.sub": "Notre plat vedette",
-    "products.francesinha.desc":
-      "La recette originale avec notre sauce secrète, viandes sélectionnées et fromage parfaitement fondu.",
+    "products.subtitle": "Découvrez les saveurs authentiques qui font de Capa Negra I une référence gastronomique à Porto",
+    "products.francesinha.normal.title": "Francesinha Classique",
+    "products.francesinha.normal.price": "12,50€",
+    "products.francesinha.normal.desc": "Le sandwich traditionnel de Porto avec jambon, chorizo, steak, fromage fondu et notre sauce spéciale",
+    "products.francesinha.hamburger.title": "Francesinha Burger",
+    "products.francesinha.hamburger.price": "12,50€",
+    "products.francesinha.hamburger.desc": "Notre francesinha spéciale préparée avec un burger artisanal, du fromage fondu et une sauce spéciale",
+    "products.francesinha.hotdog.title": "Hot-Dog Spécial",
+    "products.francesinha.hotdog.price": "10,00€",
+    "products.francesinha.hotdog.desc": "Hot-dog spécial avec saucisse artisanale, fromage fondu, bacon et sauces spéciales",
+    "products.francesinha.egg.title": "Francesinha avec Œuf",
+    "products.francesinha.egg.price": "13,50€",
+    "products.francesinha.egg.desc": "Notre francesinha spéciale avec un œuf au plat sur le dessus",
+    "products.francesinha.picanha.title": "Francesinha Picanha avec Œuf",
+    "products.francesinha.picanha.price": "14,50€",
+    "products.francesinha.picanha.desc": "Notre francesinha spéciale avec de la picanha et un œuf au plat sur le dessus",
+    "products.francesinha.special.title": "Francesinha Capa Negra 1",
+    "products.francesinha.special.price": "14,50€",
+    "products.francesinha.special.desc": "Version spéciale avec Bacon, sauce améliorée Capa Negra 1",
     // Testimonials
     "testimonials.title": "Ce qu'ils disent de nous",
-    "testimonials.subtitle": "Plus de 10 000 clients ne peuvent pas se tromper",
+    "testimonials.subtitle": "Plus de 1 000 clients ne peuvent pas se tromper",
     "testimonials.1":
       "J'ai enfin trouvé la francesinha parfaite ! La sauce est incroyable et la viande fond dans la bouche. Je reviendrai à chaque visite à Porto.",
     "testimonials.2":
@@ -280,11 +320,7 @@ const translations = {
     // Urgency
     "urgency.title": "⚠️ Attention : Nous sommes complets tous les jours !",
     "urgency.subtitle":
-      "Nous sommes le restaurant le plus recherché de Porto. Beaucoup de clients restent sans table faute de réserver à l'avance.",
-    "urgency.yesterday": "Hier :",
-    "urgency.yesterday.desc": "47 personnes sont restées sans table",
-    "urgency.week": "Cette semaine :",
-    "urgency.week.desc": "312 personnes sur liste d'attente",
+      "Nous som mes l'un des restaurants les plus recherchés de Porto. Beaucoup de clients restent sans table faute de réserver à l'avance.",
     "urgency.warning": "Ne ratez pas l'opportunité de goûter la meilleure francesinha de Porto.",
 
     // Final CTA
@@ -322,6 +358,28 @@ const translations = {
     "nav.contact": "Contacto",
     "nav.reserve": "Reservar Mesa",
 
+    // Products - Spanish
+    "products.title": "Más que una simple francesinha",
+    "products.subtitle": "Descubre los sabores auténticos que hacen de Capa Negra I una referencia gastronómica en Oporto",
+    "products.francesinha.normal.title": "Francesinha Clásica",
+    "products.francesinha.normal.price": "12,50€",
+    "products.francesinha.normal.desc": "El sándwich tradicional de Oporto con jamón, chorizo, bistec, queso fundido y nuestra salsa especial",
+    "products.francesinha.hamburger.title": "Francesinha de Hamburguesa",
+    "products.francesinha.hamburger.price": "12,50€",
+    "products.francesinha.hamburger.desc": "Nuestra francesinha especial hecha con hamburguesa artesanal, queso fundido y salsa especial",
+    "products.francesinha.hotdog.title": "Perrito Caliente Especial",
+    "products.francesinha.hotdog.price": "10,00€",
+    "products.francesinha.hotdog.desc": "Perrito caliente especial con salchicha artesanal, queso fundido, bacon y salsas especiales",
+    "products.francesinha.egg.title": "Francesinha con Huevo",
+    "products.francesinha.egg.price": "13,50€",
+    "products.francesinha.egg.desc": "Nuestra francesinha especial con huevo frito encima",
+    "products.francesinha.picanha.title": "Francesinha de Picaña con Huevo",
+    "products.francesinha.picanha.price": "14,50€",
+    "products.francesinha.picanha.desc": "Nuestra francesinha especial con picaña y huevo frito encima",
+    "products.francesinha.special.title": "Francesinha Capa Negra 1",
+    "products.francesinha.special.price": "14,50€",
+    "products.francesinha.special.desc": "Versión especial con Bacon, salsa mejorada Capa Negra 1",
+
     // Hero Section
     "hero.title1": "La",
     "hero.title2": "Francesinha",
@@ -356,17 +414,10 @@ const translations = {
     "problem.solution.desc":
       "Receta secreta guardada durante 3 generaciones. Ingredientes seleccionados diariamente. La salsa que hizo historia en Oporto. Esta es la francesinha que cambiará tu vida.",
 
-    // Products
-    "products.title": "Más que una simple francesinha",
-    "products.subtitle":
-      "Descubre los sabores auténticos que hacen de Capa Negra I una referencia gastronómica en Oporto",
-    "products.francesinha": "Francesinha Especial",
-    "products.francesinha.sub": "Nuestro plato estrella",
-    "products.francesinha.desc":
-      "La receta original con nuestra salsa secreta, carnes seleccionadas y queso perfectamente derretido.",
+    // Products - Spanish
     // Testimonials
     "testimonials.title": "Lo que dicen de nosotros",
-    "testimonials.subtitle": "Más de 10.000 clientes no pueden estar equivocados",
+    "testimonials.subtitle": "Más de 1.000 clientes no pueden estar equivocados",
     "testimonials.1":
       "¡Finalmente encontré la francesinha perfecta! La salsa es increíble y la carne se derrite en la boca. Volveré cada vez que visite Oporto.",
     "testimonials.2":
@@ -377,11 +428,7 @@ const translations = {
     // Urgency
     "urgency.title": "⚠️ Atención: ¡Estamos llenos todos los días!",
     "urgency.subtitle":
-      "Somos el restaurante más buscado de Oporto. Muchos clientes se quedan sin mesa por no reservar con antelación.",
-    "urgency.yesterday": "Ayer:",
-    "urgency.yesterday.desc": "47 personas se quedaron sin mesa",
-    "urgency.week": "Esta semana:",
-    "urgency.week.desc": "312 personas en lista de espera",
+      "Somos uno de los restaurantes más buscados de Oporto. Muchos clientes se quedan sin mesa por no reservar con antelación.",
     "urgency.warning": "No pierdas la oportunidad de probar la mejor francesinha de Oporto.",
 
     // Final CTA

@@ -148,25 +148,125 @@ export default function Home() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* Francesinha Normal */}
             <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
               <div className="relative h-64">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Francesinha Especial Capa Negra"
+                  src="/FoodPhoto/francesinhas/F normal.png"
+                  alt="Francesinha Normal"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-xl font-bold">{t("products.francesinha")}</h3>
-                  <p className="text-sm">{t("products.francesinha.sub")}</p>
+                  <h3 className="text-xl font-bold">{t("products.francesinha.normal.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.normal.price")}</p>
                 </div>
               </div>
               <div className="p-6">
-                <p className="text-gray-600">{t("products.francesinha.desc")}</p>
+                <p className="text-gray-600">{t("products.francesinha.normal.desc")}</p>
               </div>
             </div>
 
+            {/* Francesinha de Hambúrguer */}
+            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/FoodPhoto/francesinhas/F normal.png"
+                  alt="Francesinha de Hambúrguer"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-xl font-bold">{t("products.francesinha.hamburger.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.hamburger.price")}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600">{t("products.francesinha.hamburger.desc")}</p>
+              </div>
+            </div>
+
+            {/* Cachorro Especial */}
+            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/FoodPhoto/francesinhas/cachorroespecial.png"
+                  alt="Cachorro Especial"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-xl font-bold">{t("products.francesinha.hotdog.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.hotdog.price")}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600">{t("products.francesinha.hotdog.desc")}</p>
+              </div>
+            </div>
+
+            {/* Francesinha de c/ovo */}
+            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/FoodPhoto/francesinhas/F com ovo.png"
+                  alt="Francesinha de c/ovo"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-xl font-bold">{t("products.francesinha.egg.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.egg.price")}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600">{t("products.francesinha.egg.desc")}</p>
+              </div>
+            </div>
+
+            {/* Francesinha de picanha c/ovo */}
+            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/FoodPhoto/francesinhas/F com ovo.png"
+                  alt="Francesinha de picanha c/ovo"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-xl font-bold">{t("products.francesinha.picanha.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.picanha.price")}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600">{t("products.francesinha.picanha.desc")}</p>
+              </div>
+            </div>
+
+            {/* Francesinha Capa Negra 1 */}
+            <div className="group overflow-hidden rounded-lg bg-white shadow-lg transition-transform hover:scale-105">
+              <div className="relative h-64">
+                <Image
+                  src="/FoodPhoto/francesinhas/F com bacon.png"
+                  alt="Francesinha Capa Negra 1"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h3 className="text-xl font-bold">{t("products.francesinha.special.title")}</h3>
+                  <p className="text-sm">{t("products.francesinha.special.price")}</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600">{t("products.francesinha.special.desc")}</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -251,15 +351,9 @@ export default function Home() {
             <p className="mb-8 text-xl text-red-700">{t("urgency.subtitle")}</p>
             <div className="mb-8 rounded-lg bg-white p-6 shadow-lg">
               <p className="text-lg font-semibold text-gray-800">
-                <span className="text-red-600">{t("urgency.yesterday")}</span> {t("urgency.yesterday.desc")}
-              </p>
-              <p className="text-lg font-semibold text-gray-800">
-                <span className="text-red-600">{t("urgency.week")}</span> {t("urgency.week.desc")}
+                <span className="text-red-600">{t("urgency.warning")}</span>
               </p>
             </div>
-            <p className="mb-8 text-lg text-red-700">
-              <strong>{t("urgency.warning")}</strong>
-            </p>
           </div>
         </div>
       </section>
