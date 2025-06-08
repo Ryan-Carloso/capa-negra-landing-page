@@ -63,22 +63,6 @@ const translations = {
     "products.francesinha.sub": "O nosso prato-estrela",
     "products.francesinha.desc":
       "A receita original com o nosso molho secreto, carnes seleccionadas e queijo derretido na perfeição.",
-    "products.bifana": "Bifana Tradicional",
-    "products.bifana.sub": "Sabor autêntico português",
-    "products.bifana.desc":
-      "Carne de porco marinada nos nossos temperos especiais, servida em pão caseiro com um molho único.",
-    "products.pasteis": "Pastéis de Bacalhau",
-    "products.pasteis.sub": "Crocantes e saborosos",
-    "products.pasteis.desc":
-      "Bacalhau do Porto desfiado à mão, batata e especiarias secretas. Fritos no momento para uma crocância máxima.",
-    "products.tripas": "Tripas à Moda do Porto",
-    "products.tripas.sub": "O prato que deu nome aos tripeiros",
-    "products.tripas.desc":
-      "Receita centenária com feijão-branco, chouriço, linguiça e o tempero que só nós sabemos fazer.",
-    "products.desserts": "Sobremesas da Casa",
-    "products.desserts.sub": "Final perfeito para a sua refeição",
-    "products.desserts.desc":
-      "Pudim caseiro, leite-creme queimado e outras delícias que completam a experiência gastronómica.",
 
     // Testimonials
     "testimonials.title": "O que dizem sobre nós",
@@ -177,17 +161,10 @@ const translations = {
     "products.francesinha.sub": "Our star dish",
     "products.francesinha.desc":
       "The original recipe with our secret sauce, selected meats and perfectly melted cheese.",
-    "products.bifana": "Traditional Bifana",
-    "products.bifana.sub": "Authentic Portuguese flavor",
-    "products.bifana.desc": "Pork marinated in our special seasoning, served in homemade bread with unique sauce.",
     "products.pasteis": "Codfish Cakes",
     "products.pasteis.sub": "Crispy and tasty",
     "products.pasteis.desc":
       "Hand-shredded Porto codfish, potato and secret seasonings. Fried fresh for maximum crispiness.",
-    "products.tripas": "Porto-Style Tripe",
-    "products.tripas.sub": "The dish that gave tripeiros their name",
-    "products.tripas.desc":
-      "Century-old recipe with white beans, chorizo, sausage and the seasoning only we know how to make.",
     "products.desserts": "House Desserts",
     "products.desserts.sub": "Perfect ending to your meal",
     "products.desserts.desc":
@@ -290,23 +267,6 @@ const translations = {
     "products.francesinha.sub": "Notre plat vedette",
     "products.francesinha.desc":
       "La recette originale avec notre sauce secrète, viandes sélectionnées et fromage parfaitement fondu.",
-    "products.bifana": "Bifana Traditionnelle",
-    "products.bifana.sub": "Saveur portugaise authentique",
-    "products.bifana.desc":
-      "Porc mariné dans notre assaisonnement spécial, servi dans du pain maison avec une sauce unique.",
-    "products.pasteis": "Beignets de Morue",
-    "products.pasteis.sub": "Croustillants et savoureux",
-    "products.pasteis.desc":
-      "Morue de Porto effilochée à la main, pomme de terre et assaisonnements secrets. Frits à la minute para um máximo de croustillante.",
-    "products.tripas": "Tripes à la Mode de Porto",
-    "products.tripas.sub": "Le plat qui a donné son nom aux tripeiros",
-    "products.tripas.desc":
-      "Recette centenaire avec haricots blancs, chorizo, saucisse et l'assaisonnement que nous seuls savons faire.",
-    "products.desserts": "Desserts de la Maison",
-    "products.desserts.sub": "Fin parfaite pour votre repas",
-    "products.desserts.desc":
-      "Pudding maison, crème brûlée et autres délices qui complètent l'expérience gastronomique.",
-
     // Testimonials
     "testimonials.title": "Ce qu'ils disent de nous",
     "testimonials.subtitle": "Plus de 10 000 clients ne peuvent pas se tromper",
@@ -404,21 +364,6 @@ const translations = {
     "products.francesinha.sub": "Nuestro plato estrella",
     "products.francesinha.desc":
       "La receta original con nuestra salsa secreta, carnes seleccionadas y queso perfectamente derretido.",
-    "products.bifana": "Bifana Tradicional",
-    "products.bifana.sub": "Sabor portugués auténtico",
-    "products.bifana.desc": "Cerdo marinado en nuestro condimento especial, servido en pan casero con salsa única.",
-    "products.pasteis": "Pasteles de Bacalao",
-    "products.pasteis.sub": "Crujientes y sabrosos",
-    "products.pasteis.desc":
-      "Bacalao de Oporto deshilachado a mano, patata y condimentos secretos. Fritos al momento para máxima textura crujiente.",
-    "products.tripas": "Callos a la Moda de Oporto",
-    "products.tripas.sub": "El plato que dio nombre a los tripeiros",
-    "products.tripas.desc":
-      "Receta centenaria con judías blancas, chorizo, embutido y el condimento que solo nosotros sabemos hacer.",
-    "products.desserts": "Postres de la Casa",
-    "products.desserts.sub": "Final perfecto para tu comida",
-    "products.desserts.desc": "Pudín casero, crema quemada y otras delicias que completan la experiencia gastronómica.",
-
     // Testimonials
     "testimonials.title": "Lo que dicen de nosotros",
     "testimonials.subtitle": "Más de 10.000 clientes no pueden estar equivocados",
