@@ -8,7 +8,7 @@ export default function Footer() {
   const { t } = useLanguage()
 
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer id="footer" className="bg-gray-900 text-gray-300">
       <div className="container py-8">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
