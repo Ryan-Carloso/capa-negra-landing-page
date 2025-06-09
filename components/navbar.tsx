@@ -34,7 +34,7 @@ export default function Navbar() {
           <Link href="/sobre" className="text-sm font-medium hover:text-amber-500">
             {t("nav.about")}
           </Link>
-          <Link href="/localizacao" className="text-sm font-medium hover:text-amber-500">
+          <Link href="#map" className="text-sm font-medium hover:text-amber-500">
             {t("nav.location")}
           </Link>
           <Link href="/contato" className="text-sm font-medium hover:text-amber-500">
@@ -68,7 +68,7 @@ export default function Navbar() {
               {t("nav.about")}
             </Link>
             <Link
-              href="/localizacao"
+              href="#map-mobile"
               className="rounded px-4 py-2 hover:bg-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >

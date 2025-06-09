@@ -272,7 +272,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-white py-20">
+      <section id="map" className="bg-white py-20">
         <div className="container">
           <div className="mb-16 text-center">
             <h2 className="mb-4 text-4xl font-bold">{t("testimonials.title")}</h2>
@@ -312,7 +312,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-gray-50 p-8">
+            <div id="map-mobile" className="rounded-lg bg-gray-50 p-8">
               <div className="mb-4 flex">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="h-5 w-5 fill-amber-400 text-amber-400" />
@@ -329,9 +329,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-      {/* Altura média (20rem = 320px) */}
-      <div className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
+        <div  className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
         <iframe
           className="w-full h-full"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.243762329098!2d-8.596891624478525!3d41.151032010623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464f2ad943855%3A0xe0f549359c3e1a41!2sRestaurante%20Capa%20Negra%20I!5e0!3m2!1sen!2spt!4v1741807392319!5m2!1sen!2spt"
@@ -341,6 +339,9 @@ export default function Home() {
           referrerPolicy="no-referrer-when-downgrade"
         />
       </div>
+      </section>
+      {/* Altura média (20rem = 320px) */}
+
 
 
       {/* Urgency Section */}
