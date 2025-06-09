@@ -45,7 +45,9 @@ export default function Home() {
                 size="lg"
                 variant="outline"
                 className="border-white px-8 py-4 text-lg text-black hover:bg-white/10"
-
+                onClick={() => {
+                  window.location.href = `#map-mobile`
+                }}
               >
                 {t("hero.cta2")}
               </Button>
@@ -329,7 +331,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div  className="rounded-xl mb-10 overflow-hidden mx-4 h-80">
+        <div  className="rounded-xl mt-10 mb-10 overflow-hidden mx-4 h-80">
         <iframe
           className="w-full h-full"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.243762329098!2d-8.596891624478525!3d41.151032010623375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464f2ad943855%3A0xe0f549359c3e1a41!2sRestaurante%20Capa%20Negra%20I!5e0!3m2!1sen!2spt!4v1741807392319!5m2!1sen!2spt"
@@ -340,7 +342,6 @@ export default function Home() {
         />
       </div>
       </section>
-      {/* Altura média (20rem = 320px) */}
 
 
 
