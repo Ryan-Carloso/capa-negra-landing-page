@@ -4,13 +4,13 @@ import { useState, useEffect } from "react"
 import Script from "next/script"
 import { createClient } from '@supabase/supabase-js'
 
-// Initialize Supabase client
+// Initialize Supabase client with environment variables
 const supabase = createClient(
-  "https://risygtszttwuanvwyoqc.supabase.co",
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJpc3lndHN6dHR3dWFudnd5b3FjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI2NTA3MzUsImV4cCI6MjA1ODIyNjczNX0.jbCA33ka6vcM6wyNJLoEsF4aZMVlif1Rs1Fr5UxeJfk"
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 )
 
-const PHONE_NUMBER = "+351912463164" // Replace with your WhatsApp number
+const PHONE_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+351912463164"
 
 export default function ReservePage() {
   const [form, setForm] = useState({
