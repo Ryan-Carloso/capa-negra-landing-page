@@ -40,20 +40,20 @@ const translations = {
     "social.rank": "Melhor Francesinha do Porto",
 
     // Problem Section
-    "problem.title": "Cansado de francesinhas que",
-    "problem.title2": "desiludem",
+    "problem.title": "Exigente com a sua francesinha?",
+    "problem.title2": "Nós também",
     "problem.subtitle":
-      "Molho aguado, ingredientes de fraca qualidade, pão encharcado… Sabemos como é frustrante pagar caro por uma francesinha medíocre.",
-    "problem.sauce": "Molho Sem Sabor",
-    "problem.sauce.desc": "Molhos industriais que nada têm a ver com a receita tradicional",
-    "problem.meat": "Carne de Má Qualidade",
-    "problem.meat.desc": "Carnes processadas e linguiças baratas que arruínam toda a experiência",
-    "problem.price": "Preço Abusivo",
-    "problem.price.desc": "Pagar caro por tão pouco, sem qualidade nem tradição",
+      "Molho autêntico, ingredientes frescos e pão crocante. A receita tradicional do Porto, feita com amor e dedicação.",
+    "problem.sauce": "Molho Autêntico",
+    "problem.sauce.desc": "Nossa receita secreta, guardada há 3 gerações, feita com ingredientes frescos e amor",
+    "problem.meat": "Carne Fresca",
+    "problem.meat.desc": "Carnes selecionadas diariamente, para garantir o melhor sabor",
+    "problem.price": "Preço Justo",
+    "problem.price.desc": "Pague um preço justo por uma francesinha de qualidade, feita com amor e dedicação",
     "problem.solution": "No Capa Negra I, é",
     "problem.solution2": "diferente",
     "problem.solution.desc":
-      "Receita secreta guardada há 3 gerações. Ingredientes seleccionados diariamente. O molho que fez história no Porto. Esta é a francesinha que vai mudar a sua vida.",
+      "Nossa receita secreta, feita com ingredientes frescos e amor, é a escolha certa para quem procura uma francesinha autêntica e deliciosa.",
 
     // Products
     "products.title": "Mais do que uma francesinha",

@@ -98,48 +98,49 @@ export default function Home() {
       </section>
 
 
-      {/* Problem/Solution */}
+      {/* Features/Benefits */}
       <section className="bg-white py-20">
-        <div className="container">
-          <div className="mx-auto max-w-4xl text-center">
-            <h2 className="mb-6 text-4xl font-bold text-gray-900">
-              {t("problem.title")} <span className="text-red-500">{t("problem.title2")}</span>?
-            </h2>
-            <p className="mb-12 text-xl text-gray-600">{t("problem.subtitle")}</p>
+  <div className="container px-4 mx-auto max-w-7xl">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-extrabold text-gray-900">
+        {t("problem.title")} <span className="text-amber-600">{t("problem.title2")}</span>?
+      </h2>
+      <p className="mt-4 text-lg text-gray-600">{t("problem.subtitle")}</p>
+    </div>
 
-            <div className="mb-16 grid gap-8 md:grid-cols-3">
-              <div className="rounded-lg bg-red-50 p-6 text-center">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100">
-                  <span className="text-2xl">😞</span>
-                </div>
-                <h3 className="mb-2 font-semibold text-red-800">{t("problem.sauce")}</h3>
-                <p className="text-red-600">{t("problem.sauce.desc")}</p>
-              </div>
-              <div className="rounded-lg bg-red-50 p-6 text-center">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100">
-                  <span className="text-2xl">🥩</span>
-                </div>
-                <h3 className="mb-2 font-semibold text-red-800">{t("problem.meat")}</h3>
-                <p className="text-red-600">{t("problem.meat.desc")}</p>
-              </div>
-              <div className="rounded-lg bg-red-50 p-6 text-center">
-                <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-red-100">
-                  <span className="text-2xl">💸</span>
-                </div>
-                <h3 className="mb-2 font-semibold text-red-800">{t("problem.price")}</h3>
-                <p className="text-red-600">{t("problem.price.desc")}</p>
-              </div>
-            </div>
-
-            <div className="rounded-lg bg-amber-50 p-8">
-              <h3 className="mb-4 text-3xl font-bold text-amber-800">
-                {t("problem.solution")} <span className="text-amber-600">{t("problem.solution2")}</span>
-              </h3>
-              <p className="text-lg text-amber-700">{t("problem.solution.desc")}</p>
-            </div>
+    <div className="grid gap-10 md:grid-cols-3">
+      {[
+        {
+          icon: "👨‍🍳",
+          title: t("problem.sauce"),
+          desc: t("problem.sauce.desc"),
+        },
+        {
+          icon: "🥩",
+          title: t("problem.meat"),
+          desc: t("problem.meat.desc"),
+        },
+        {
+          icon: "💰",
+          title: t("problem.price"),
+          desc: t("problem.price.desc"),
+        },
+      ].map((item, index) => (
+        <div
+          key={index}
+          className="rounded-2xl bg-green-100 p-8 text-center shadow-sm hover:shadow-md transition-shadow duration-200"
+        >
+          <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-inner">
+            <span className="text-3xl">{item.icon}</span>
           </div>
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
+          <p className="text-gray-700 leading-relaxed">{item.desc}</p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Products Showcase */}
       <section className="bg-gray-50 py-20">
@@ -306,7 +307,13 @@ export default function Home() {
               </div>
               <p className="mb-6 text-gray-700">"{t("testimonials.2")}"</p>
               <div className="flex items-center gap-3">
-                <div className="h-12 w-12 rounded-full bg-gray-300"></div>
+                <Image
+                  src="/FoodPhoto/Joao.jpg"
+                  alt="João Santos"
+                  width={48}
+                  height={48}
+                  className="rounded-full"
+                />
                 <div>
                   <p className="font-semibold">João Santos</p>
                   <p className="text-sm text-gray-500">Porto</p>
