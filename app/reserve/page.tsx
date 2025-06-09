@@ -44,9 +44,25 @@ export default function ReservePage() {
         `}
       </Script>
 
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 py-12">
-        <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-          <h1 className="text-2xl font-bold mb-6 text-center">Reserva</h1>
+      <div className="min-h-screen flex flex-col items-center justify-center py-12 relative">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <div 
+            className="w-full h-full bg-cover bg-center"
+            style={{
+              backgroundImage: 'url(/pontePorto.jpg)',
+              filter: 'brightness(0.7)'
+            }}
+          />
+          <div className="absolute inset-0 bg-black/30" />
+        </div>
+        
+        {/* Form Container */}
+        <div className="bg-white/90 backdrop-blur-sm p-8 rounded-lg shadow-xl w-full max-w-md relative z-10">
+          <div className="text-center mb-6">
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">Faça sua reserva</h1>
+            <p className="text-gray-600">Garanta o seu lugar no Capa Negra I</p>
+          </div>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nome</label>
@@ -86,9 +102,9 @@ export default function ReservePage() {
             </div>
             <button
               type="submit"
-              className="w-full bg-amber-500 text-white py-2 rounded-md font-semibold hover:bg-amber-600 transition"
+              className="w-full bg-amber-500 text-white py-3 rounded-md font-semibold hover:bg-amber-600 transition-colors duration-300 transform hover:scale-[1.02] mt-6"
             >
-            Reservar
+              Confirmar Reserva
             </button>
           </form>
         </div>

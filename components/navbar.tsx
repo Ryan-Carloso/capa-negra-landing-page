@@ -45,7 +45,9 @@ export default function Navbar() {
 
         <div className="flex-1 hidden items-center justify-end gap-4 md:flex">
           <LanguageSelector />
-          <Button className="bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
+          <Button onClick={() => {
+            window.location.href = `/reserve`
+          }}  className="bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -78,7 +80,9 @@ export default function Navbar() {
             <div className="px-4">
               <LanguageSelector />
             </div>
-            <Button className="mx-4 bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
+            <Button onClick={() => {
+              window.location.href = `/reserve`
+            }} className="mx-4 bg-amber-500 hover:bg-amber-600">{t("nav.reserve")}</Button>
           </nav>
         </div>
       )}
