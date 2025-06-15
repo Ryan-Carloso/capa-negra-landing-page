@@ -104,7 +104,7 @@ export default function ReservePage() {
       )
       
       // Open WhatsApp
-      window.open(`https://wa.me/${PHONE_NUMBER}?text=${message}`, '_blank')
+      window.open(`https://wa.me/${PHONE_NUMBER}?text=${message}`, '_self')
       
     } catch (error) {
       console.error('Error saving reservation:', error)
