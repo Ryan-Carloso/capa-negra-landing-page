@@ -50,7 +50,7 @@ const translations = {
     "problem.meat.desc": "Carnes selecionadas diariamente, para garantir o melhor sabor",
     "problem.price": "Preço Justo",
     "problem.price.desc": "Pague um preço justo por uma francesinha de qualidade, feita com amor e dedicação",
-    "problem.solution": "No Capa Negra I, é",
+    "problem.solution": "No Capa Negra 1, é",
     "problem.solution2": "diferente",
     "problem.solution.desc":
       "Nossa receita secreta, feita com ingredientes frescos e amor, é a escolha certa para quem procura uma francesinha autêntica e deliciosa.",
@@ -58,7 +58,7 @@ const translations = {
     // Products
     "products.title": "Mais do que uma francesinha",
     "products.subtitle":
-      "Descubra os sabores autênticos que fazem do Capa Negra I uma referência gastronómica no Porto",
+      "Descubra os sabores autênticos que fazem do Capa Negra 1 uma referência gastronómica no Porto",
     "products.francesinha": "Francesinha Especial",
     "products.francesinha.sub": "O nosso prato-estrela",
     "products.francesinha.desc":
@@ -93,11 +93,9 @@ const translations = {
       "Amazing experience! The francesinha was incredible and the service was perfect. A must-visit in Porto!",
 
     // Urgency
-    "urgency.title": "⚠️ Atenção: Estamos mesmo esgotados sempre!",
-    "urgency.subtitle":
-      "Somos um dos restaurantes mais procurados do Porto. Muitos clientes ficam sem mesa por não fazerem reserva com antecedência.",
-
-    "urgency.warning": "Não perca a oportunidade de provar uma das melhores francesinhas do Porto.",
+    "urgency.title": "Garanta sua mesa",
+    "urgency.subtitle": "Algumas datas e horários são muito disputados — reserve com antecedência.",
+    "urgency.warning": "Não perca a chance de provar uma das francesinhas mais apreciadas do Porto.",
 
     // Final CTA
     "cta.title": "Reserve já e garanta a sua mesa",
@@ -173,25 +171,23 @@ const translations = {
     "social.rating": "Google Rating",
     "social.rank": "Francesinha in Porto",
 
-    // Problem Section
-    "problem.title": "Tired of francesinhas that",
-    "problem.title2": "disappoint",
-    "problem.subtitle":
-      "Watery sauce, low-quality ingredients, soggy bread... We know how frustrating it is to pay a lot for a mediocre francesinha.",
-    "problem.sauce": "Flavorless Sauce",
-    "problem.sauce.desc": "Industrial sauces that have nothing to do with the traditional recipe",
-    "problem.meat": "Poor Quality Meat",
-    "problem.meat.desc": "Processed meats and cheap sausages that ruin the entire experience",
-    "problem.price": "Abusive Price",
-    "problem.price.desc": "Paying a lot for little, without quality or tradition",
-    "problem.solution": "At Capa Negra I, it's",
-    "problem.solution2": "different",
-    "problem.solution.desc":
-      "Secret recipe kept for 3 generations. Ingredients selected daily. The sauce that made history in Porto. This is the francesinha that will change your life.",
+    "problem.title": "Picky about your francesinha?",
+"problem.title2": "So are we",
+"problem.subtitle": "Authentic sauce, fresh ingredients, and crispy bread. The traditional Porto recipe, made with love and dedication.",
+"problem.sauce": "Authentic Sauce",
+"problem.sauce.desc": "Our secret recipe, passed down for 3 generations, made with fresh ingredients and love",
+"problem.meat": "Fresh Meat",
+"problem.meat.desc": "Carefully selected meats every day to ensure the best flavor",
+"problem.price": "Fair Price",
+"problem.price.desc": "Pay a fair price for a high-quality francesinha, made with love and dedication",
+"problem.solution": "At Capa Negra 1, it's",
+"problem.solution2": "different",
+"problem.solution.desc": "Our secret recipe, made with fresh ingredients and love, is the right choice for those looking for an authentic and delicious francesinha.",
+
 
     // Products
     "products.title": "More than just a francesinha",
-    "products.subtitle": "Discover the authentic flavors that make Capa Negra I a gastronomic reference in Porto",
+    "products.subtitle": "Discover the authentic flavors that make Capa Negra 1 a gastronomic reference in Porto",
     "products.pasteis": "Codfish Cakes",
     "products.pasteis.sub": "Crispy and tasty",
     "products.pasteis.desc":
@@ -212,10 +208,10 @@ const translations = {
       "Amazing experience! The francesinha was incredible and the service was perfect. A must-visit in Porto!",
 
     // Urgency
-    "urgency.title": "⚠️ Warning: We're full every day!",
-    "urgency.subtitle":
-      "We're one of the most sought-after restaurants in Porto. Many customers are left without a table for not booking in advance.",
-    "urgency.warning": "Don't miss the opportunity to taste one of the best francesinhas in Porto.",
+    "urgency.title": "Secure your table",
+    "urgency.subtitle": "Some dates and times are in high demand — book in advance.",
+    "urgency.warning": "Don't miss the chance to try one of the most beloved francesinhas in Porto.",
+
 
     // Final CTA
     "cta.title": "Reserve Now and Guarantee Your Table",
@@ -270,25 +266,23 @@ const translations = {
     "social.rating": "Note Google",
     "social.rank": "Francesinha de Porto",
 
-    // Problem Section
-    "problem.title": "Fatigué des francesinhas qui",
-    "problem.title2": "déçoivent",
-    "problem.subtitle":
-      "Sauce aqueuse, ingrédients de mauvaise qualité, pain détrempé... Nous savons comme c'est frustrant de payer cher pour une francesinha médiocre.",
-    "problem.sauce": "Sauce Sans Saveur",
-    "problem.sauce.desc": "Sauces industrielles qui n'ont rien à voir avec la recette traditionnelle",
-    "problem.meat": "Viande de Mauvaise Qualité",
-    "problem.meat.desc": "Viandes transformées et saucisses bon marché qui gâchent toute l'expérience",
-    "problem.price": "Prix Abusif",
-    "problem.price.desc": "Payer beaucoup pour peu, sans qualité ni tradition",
-    "problem.solution": "Chez Capa Negra I, c'est",
-    "problem.solution2": "différent",
-    "problem.solution.desc":
-      "Recette secrète gardée depuis 3 générations. Ingrédients sélectionnés quotidiennement. La sauce qui a fait l'histoire de Porto. C'est la francesinha qui va changer votre vie.",
+    "problem.title": "Exigeant avec votre francesinha ?",
+"problem.title2": "Nous aussi",
+"problem.subtitle": "Sauce authentique, ingrédients frais et pain croustillant. La recette traditionnelle de Porto, préparée avec amour et dévouement.",
+"problem.sauce": "Sauce Authentique",
+"problem.sauce.desc": "Notre recette secrète, transmise depuis 3 générations, préparée avec des ingrédients frais et beaucoup d'amour",
+"problem.meat": "Viande Fraîche",
+"problem.meat.desc": "Des viandes sélectionnées quotidiennement pour garantir la meilleure saveur",
+"problem.price": "Prix Juste",
+"problem.price.desc": "Payez un prix juste pour une francesinha de qualité, faite avec amour et dévouement",
+"problem.solution": "Chez Capa Negra 1, c’est",
+"problem.solution2": "différent",
+"problem.solution.desc": "Notre recette secrète, préparée avec des ingrédients frais et de l’amour, est le choix idéal pour ceux qui recherchent une francesinha authentique et savoureuse.",
+
 
     // Products - French
     "products.title": "Plus qu'une simple francesinha",
-    "products.subtitle": "Découvrez les saveurs authentiques qui font de Capa Negra I une référence gastronomique à Porto",
+    "products.subtitle": "Découvrez les saveurs authentiques qui font de Capa Negra 1 une référence gastronomique à Porto",
     "products.francesinha.normal.title": "Francesinha Classique",
     "products.francesinha.normal.price": "12,50€",
     "products.francesinha.normal.desc": "Le sandwich traditionnel de Porto avec jambon, chorizo, steak, fromage fondu et notre sauce spéciale",
@@ -318,10 +312,10 @@ const translations = {
       "Expérience incroyable ! La francesinha était incroyable et le service parfait. Un incontournable à Porto !",
 
     // Urgency
-    "urgency.title": "⚠️ Attention : Nous sommes complets tous les jours !",
-    "urgency.subtitle":
-      "Nous sommes l'un des restaurants les plus recherchés de Porto. Beaucoup de clients restent sans table faute de réserver à l'avance.",
-    "urgency.warning": "Ne ratez pas l'opportunité de goûter une des meilleures francesinhas de Porto.",
+    "urgency.title": "Réservez votre table",
+    "urgency.subtitle": "Certains créneaux sont très demandés — réservez à l'avance.",
+    "urgency.warning": "Ne manquez pas l’occasion de goûter l’une des francesinhas les plus appréciées de Porto.",
+
 
     // Final CTA
     "cta.title": "Réservez Maintenant et Garantissez Votre Table",
@@ -360,7 +354,7 @@ const translations = {
 
     // Products - Spanish
     "products.title": "Más que una simple francesinha",
-    "products.subtitle": "Descubre los sabores auténticos que hacen de Capa Negra I una referencia gastronómica en Oporto",
+    "products.subtitle": "Descubre los sabores auténticos que hacen de Capa Negra 1 una referencia gastronómica en Oporto",
     "products.francesinha.normal.title": "Francesinha Clásica",
     "products.francesinha.normal.price": "12,50€",
     "products.francesinha.normal.desc": "El sándwich tradicional de Oporto con jamón, chorizo, bistec, queso fundido y nuestra salsa especial",
@@ -398,21 +392,19 @@ const translations = {
     "social.rating": "Valoración Google",
     "social.rank": "Francesinha de Oporto",
 
-    // Problem Section
-    "problem.title": "¿Cansado de francesinhas que",
-    "problem.title2": "decepcionan",
-    "problem.subtitle":
-      "Salsa aguada, ingredientes de baja calidad, pan empapado... Sabemos lo frustrante que es pagar caro por una francesinha mediocre.",
-    "problem.sauce": "Salsa Sin Sabor",
-    "problem.sauce.desc": "Salsas industriales que no tienen nada que ver con la receta tradicional",
-    "problem.meat": "Carne de Mala Calidad",
-    "problem.meat.desc": "Carnes procesadas y embutidos baratos que arruinan toda la experiencia",
-    "problem.price": "Precio Abusivo",
-    "problem.price.desc": "Pagar mucho por poco, sin calidad ni tradición",
-    "problem.solution": "En Capa Negra I, es",
-    "problem.solution2": "diferente",
-    "problem.solution.desc":
-      "Receta secreta guardada durante 3 generaciones. Ingredientes seleccionados diariamente. La salsa que hizo historia en Oporto. Esta es la francesinha que cambiará tu vida.",
+    "problem.title": "¿Exigente con tu francesinha?",
+"problem.title2": "Nosotros también",
+"problem.subtitle": "Salsa auténtica, ingredientes frescos y pan crujiente. La receta tradicional de Oporto, hecha con amor y dedicación.",
+"problem.sauce": "Salsa Auténtica",
+"problem.sauce.desc": "Nuestra receta secreta, guardada por 3 generaciones, hecha con ingredientes frescos y amor",
+"problem.meat": "Carne Fresca",
+"problem.meat.desc": "Carnes seleccionadas diariamente para garantizar el mejor sabor",
+"problem.price": "Precio Justo",
+"problem.price.desc": "Paga un precio justo por una francesinha de calidad, hecha con amor y dedicación",
+"problem.solution": "En Capa Negra 1, es",
+"problem.solution2": "diferente",
+"problem.solution.desc": "Nuestra receta secreta, hecha con ingredientes frescos y amor, es la elección perfecta para quien busca una francesinha auténtica y deliciosa.",
+
 
     // Products - Spanish
     // Testimonials
@@ -426,10 +418,9 @@ const translations = {
       "¡Experiencia increíble! La francesinha fue increíble y el servicio perfecto. ¡Una visita obligada en Oporto!",
 
     // Urgency
-    "urgency.title": "⚠️ Atención: ¡Estamos llenos todos los días!",
-    "urgency.subtitle":
-      "Somos uno de los restaurantes más buscados de Oporto. Muchos clientes se quedan sin mesa por no reservar con antelación.",
-    "urgency.warning": "No pierdas la oportunidad de probar una de las mejores francesinhas de Oporto.",
+    "urgency.title": "Asegura tu mesa",
+    "urgency.subtitle": "Algunas fechas y horarios son muy solicitados — reserva con antelación.",
+    "urgency.warning": "No pierdas la oportunidad de probar una de las francesinhas más apreciadas de Oporto.",
 
     // Final CTA
     "cta.title": "Reserva Ahora y Garantiza Tu Mesa",
