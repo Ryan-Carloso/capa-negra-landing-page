@@ -128,6 +128,15 @@ export default function ReservePage() {
           gtag('config', 'AW-16981555594');
         `}
       </Script>
+      <Script id="google-ads-conversion">
+      {`
+        gtag('event', 'conversion', {
+          'send_to': 'AW-16981555594/ALRHCKD14MEaEIrzt6E_',
+          'value': 25.0,
+          'currency': 'EUR',
+        });
+      `}
+    </Script>
 
       <div className="min-h-screen flex flex-col items-center justify-center py-12 relative">
         {/* Background Image with Overlay */}
