@@ -7,6 +7,8 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { useLanguage } from "@/contexts/language-context"
 
+//testing
+
 export default function Home() {
   const { t } = useLanguage()
 
